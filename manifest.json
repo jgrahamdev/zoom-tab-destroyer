@@ -1,0 +1,14 @@
+{
+  "name": "Zoom Tab Management",
+  "version": "0.1",
+  "description": "Close Zoom tabs once the meeting has started.",
+  "manifest_version": 2,
+  "permissions": [
+    "webNavigation",
+    "https://*.zoom.us/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
