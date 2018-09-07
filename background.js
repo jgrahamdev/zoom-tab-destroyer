@@ -7,5 +7,10 @@ chrome.webNavigation.onCompleted.addListener(function(e) {
       pathPrefix: "/s/",
       queryContains: "status=success",
     },
+    {
+      hostSuffix: 'zoom.us',
+      pathPrefix: "/j/",
+      queryContains: "status=success",
+    },
   ]
 });
